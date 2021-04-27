@@ -1,0 +1,27 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+#wrapper{border:1px solid none;width:700px;margin:1.5rem auto;}
+a{color:black;}
+#wrapper h1{text-align:center;background-color:black;;border:1px solid black;;margin: 1rem 0;padding:1rem;color:white;border-radius:5px;}
+#wrapper #createBox{height:3rem;display:flex;justify-content:space-evenly;}
+#wrapper #createBox input{display:inline-block;width:80%;height:100%;padding:1rem;font-size:1.1rem;}
+#wrapper #createBox button{display:inline-block;width:20%;height:100%;color:white;font-weight:bold;font-size:1.1rem;background-color:black;;transition:all .25s;border-radius:3px;}
+#wrapper #createBox button:hover{background:white;color:black;;border:1px solid black;;}
+#wrapper #todoListWrapper{}
+#wrapper #todoListWrapper .todoBox{border:2px solid rgb(219, 219, 219);border-radius:5px;display:flex;justify-content:space-between;margin-top:1rem;padding:0.5rem;}
+#wrapper #todoListWrapper .todoBox .update{border:1px solid none;width:92%;display:flex;}
+#wrapper #todoListWrapper .todoBox .update input{width:85%;padding:1rem;font-size:1.1rem;}
+#wrapper #todoListWrapper .todoBox .update button{width:15%;color:white;background:black;;font-size:1rem;transition:all .25s;border-radius:3px;}
+#wrapper #todoListWrapper .todoBox .update button:hover{background:white;color:black;;border:1px solid black;;}
+#wrapper #todoListWrapper .todoBox .content{border-radius:5px;background:rgb(240, 240, 240);font-size:1.3rem;font-weight:bold;width:92%;display:flex;align-items:center;padding:1rem;}
+#wrapper #todoListWrapper .todoBox .buttons{border:1px solid none;display:flex;flex-direction:column;}
+#wrapper #todoListWrapper .todoBox .buttons .btn{background-color:transparent;border:none;width:15px;height:15px;border-radius:50%;margin:3px;margin-right:10px;}
+#wrapper #todoListWrapper .todoBox .buttons .success{background:darkcyan;}
+#wrapper #todoListWrapper .todoBox .buttons .success:hover{background:white;border:2px solid darkcyan;}
+#wrapper #todoListWrapper .todoBox .buttons .update{background:yellowgreen;}
+#wrapper #todoListWrapper .todoBox .buttons .update:hover{background:white;border:2px solid yellowgreen;}
+#wrapper #todoListWrapper .todoBox .buttons .delete{background:red;}
+#wrapper #todoListWrapper .todoBox .buttons .delete:hover{background:white;border:2px solid red;}
+
+#wrapper #todoListWrapper .true{background:black;}
+#wrapper #todoListWrapper .true .content{background:rgb(43, 43, 43);color:white;text-decoration:line-through;}
